@@ -68,3 +68,18 @@ print(num1 + num2)
 
 print("multiply")
 print(num1 * num2)
+
+
+
+
+
+
+
+correct_password = "python123"
+
+user_input = input("Enter the password: ")
+
+if user_input == correct_password:
+    print("Access granted")
+else:
+    print("Access denied")
