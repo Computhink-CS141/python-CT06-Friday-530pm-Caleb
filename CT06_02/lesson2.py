@@ -54,7 +54,12 @@ print("Blue")
 # else
 # send error message to user
 
-
+hidden_word = "passme"
+reply = input("tell me the secret password")
+if hidden_word == reply:
+    print("access is granted")
+else:
+    print("wrong password")
 
 
 
@@ -83,3 +88,7 @@ if user_input == correct_password:
     print("Access granted")
 else:
     print("Access denied")
+
+
+
+
