@@ -55,14 +55,16 @@ age =age + 10
 # total = (3 + 4) * 5 - (10 / 2)
 # print(total)
 
-pinapple = 15
-bak_kua = 58
 
 
+# total = (15*2)+58
+# print(total)
 
-
-
-
+total = 96+(18*3)+(2*6)
+service_charge = 10/100*total
+total = total + service_charge
+final = total - 25
+print(final)
 
 
 
