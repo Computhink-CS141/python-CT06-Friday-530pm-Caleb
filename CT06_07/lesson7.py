@@ -109,10 +109,10 @@ print("Hello from lesson 7")
 
 # Task 12
 
-number = int(input ("Type a number."))
-for i in range(number+1):
-    spaces = number - i
-    print((""*spaces )+ "#")
+# number = int(input ("Type a number."))
+# for i in range(number+1):
+#     spaces = number - i
+#     print((""*spaces )+ "#")
 
 
 
