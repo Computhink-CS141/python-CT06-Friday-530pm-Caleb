@@ -54,8 +54,8 @@
 # timesr = input("What number for the timestable?")
 
 # for num in range(1,13,1):
-#     sum = str(int(timesr) * num)
-#     print(str(timesr) + " x " + str(num) + " = " + sum)
+#     sum = str(timesr) * num)
+#     print(timesr + " x " + str(num) + " = " + sum)
 
 # Task 8
 
@@ -81,6 +81,10 @@
 #     total = total + num1
 # average = total / nums
 # print("The average is "+ str(average))
+
+
+
+
 
 
 
