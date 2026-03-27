@@ -20,23 +20,39 @@ print("Hello from lesson 9")
 # length = int(input ("How many days did you borrow this book?"))
 
 # if length >= 25:
-#     print("Remember to return this book!")
+    # print("Remember to return this book!")
 
 
 # Task 3
 
-apple = 1
-numa = int(input("How much apples do you want to buy?"))
-if numa >= 10:
-    print("You will get a discount!")
-    discount = 10/100 * (numa*apple)
-total = apple * numa - discount
-print ("The total cost:$"  +str(total))
+# apple = 1
+# numa = int(input("How much apples do you want to buy?"))
+# if numa >= 10:
+#     print("You will get a discount!")
+#     discount = 10/100 * (numa*apple)
+# total = apple * numa - discount
+# print ("The total cost:$"  +str(total))
 
+# Task 4
 
+apple = 0.60
+orange = 0.90
 
+numa = int(input("How many apples do you want to buy?"))
 
+if numa > 5:
+    discount = 10/100 *(numa*apple)
+else:
+    discount = 0 
+totala = apple * numa -discount
 
+numo = int(input("How many oranges do you want to buy?"))
 
+if numo > 5:
+    discount = 10/100 * (numo*orange)
+else:
+    discount = 0
+totalo = orange * numo - discount
 
-
+total = totala + totalo
+print("The total is " + str(total))
